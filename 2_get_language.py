@@ -4,7 +4,7 @@ from tqdm import tqdm
 import re
 
 # Baca file Excel
-df = pd.read_excel("master_song.xlsx")
+df = pd.read_excel("new_data.xlsx")
 
 # Fungsi deteksi bahasa dari song_id
 def detect_language(song_id):
